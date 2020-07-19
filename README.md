@@ -1,6 +1,6 @@
 # Particle_Temp_Hum_To_Azure_IoTHub
 
-A Particle project named Particle_Temp_Hum_To_Azure_IoTHub
+A Particle project to use the data gathered by the temperature and humidity sensor in connection with  Azure IoT-Hub.
 
 ## Welcome to your project!
 
