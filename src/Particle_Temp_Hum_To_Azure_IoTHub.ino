@@ -10,13 +10,12 @@ String temp;
 String hum;
 
 // setup() runs once, when the device is first turned on.
-void setup()
+void setup(){
 
   //Temperature and Humidity Sensor
   Serial.begin(9600);
   sensor.begin();
 }
-
 // loop() runs over and over again (delay duration can be manipulated in the Particle App)
 void loop()
 {

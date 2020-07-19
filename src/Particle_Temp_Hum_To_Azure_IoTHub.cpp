@@ -11,6 +11,7 @@
 #include "Grove_Temperature_And_Humidity_Sensor.h"
 
 //Temperature and Humidity Sensor
+void setup();
 void loop();
 #line 8 "/Users/kathrinburtscher/Particle/Particle_Temp_Hum_To_Azure_IoTHub/src/Particle_Temp_Hum_To_Azure_IoTHub.ino"
 DHT sensor(D2);
@@ -18,13 +19,12 @@ String temp;
 String hum;
 
 // setup() runs once, when the device is first turned on.
-void setup()
+void setup(){
 
   //Temperature and Humidity Sensor
   Serial.begin(9600);
   sensor.begin();
 }
-
 // loop() runs over and over again (delay duration can be manipulated in the Particle App)
 void loop()
 {
